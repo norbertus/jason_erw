@@ -1,9 +1,13 @@
 import { Gpsposition } from './gpsposition';
 
+
+
 export interface Dbstopplace {
     id: number;
-    stationname: string;
-    evanr: string;
+    stationID: string;
+    evaNumber: string;
+    groupMembers: Array<string>;
+    names: any;
     availableTransports: string[];
     position:  Gpsposition;
 }

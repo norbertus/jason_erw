@@ -11,7 +11,7 @@ import { DbstopplaceService } from '../dbstopplace.service';
 })
 export class JourneySearchComponent implements OnInit {
 
-  stationname = 'Berlin1';
+  stationname = 'Berlin';
   
 //  dbstopplaces: Array<Journey> = [];
   dbstopplaces: Array<Dbstopplace> = [];
@@ -19,9 +19,9 @@ export class JourneySearchComponent implements OnInit {
   selectetDbstopplace: Dbstopplace | null = null;
   delayFilter = false;
 
-  basket: { [key: number]: boolean } = {
-    1: true,
-    2: true
+  basket: { [key: string]: boolean } = {
+    1071: true,
+    4859: true
   };
 
   constructor(private dbstopplaceService: DbstopplaceService) {

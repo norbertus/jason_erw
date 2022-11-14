@@ -1,55 +1,78 @@
 {
     "mystations":
     [
-        {
+ 		{
             "id": 1,
-            "stationname": "Berlin1",
-            "evanr": "1122334",
-            "availableTransports": [
-				"CITY_TRAIN"
+            "evaNumber": "8011160",
+			"stationID": "1071",
+			"groupMembers": [
+				"8011160",
+				"8089021",
+				"8098160"
 			],
-            "position": {
-				"longitude": 13.369545,
-				"latitude": 52.525592
-			}
-        },
-        {
-            "id": 2,
-            "stationname": "Berlin Ostkreuz",
-            "evanr": "8011162",
-            "availableTransports": [
+			"names": {
+				"DE": {
+					"nameLong": "Berlin Hbf",
+					"nameLocal": "B Hbf",
+					"speechLong": "Berlin Hauptbahnhof",
+					"speechShort": "Berlin Hauptbahnhof"
+				}
+			},
+			"availableTransports": [
 				"HIGH_SPEED_TRAIN",
 				"REGIONAL_TRAIN",
 				"INTERCITY_TRAIN",
 				"INTER_REGIONAL_TRAIN",
+				"CITY_TRAIN"
+			],
+			"position": {
+				"longitude": 13.369545,
+				"latitude": 52.525592
+			}
+		},        
+        {
+            "id": 2,
+            "evaNumber": "8011162",
+			"stationID": "4809",
+			"groupMembers": [
+				"8089028",
+				"8011162"
+			],
+			"names": {
+				"DE": {
+					"nameLong": "Berlin Ostkreuz",
+					"speechLong": "Berlin Ostkreuz",
+					"speechShort": "Berlin Ostkreuz"
+				}
+			},
+			"availableTransports": [
+				"HIGH_SPEED_TRAIN",
+				"REGIONAL_TRAIN",
+				"INTERCITY_TRAIN",
 				"CITY_TRAIN"
 			],
 			"position": {
 				"longitude": 13.469105,
 				"latitude": 52.503037
-			}            
+			}
         },
         {
             "id": 3,
-            "stationname": "Bonn Hbf",
-            "evanr": "3344556",
-            "availableTransports": [
-				"HIGH_SPEED_TRAIN",
-				"REGIONAL_TRAIN",
-				"INTERCITY_TRAIN",
-				"INTER_REGIONAL_TRAIN",
-				"CITY_TRAIN"
-			],    
-			"position": {
-				"longitude": 7.096944,
-				"latitude": 50.731944 
-			}                    
-        },
-        {
-            "id": 4,
-            "stationname": "Berlin Südkreuz",
-            "evanr": "8011161",
-            "availableTransports": [
+			"evaNumber": "8011113",
+			"stationID": "4859",
+			"groupMembers": [
+				"8011113",
+				"8089067",
+				"8089073"
+			],
+			"names": {
+				"DE": {
+					"nameLong": "Berlin Südkreuz",
+					"speechLong": "Berlin Südkreuz",
+					"speechShort": "Berlin Südkreuz"
+				}
+			},
+			"availableTransports": [
 				"HIGH_SPEED_TRAIN",
 				"REGIONAL_TRAIN",
 				"INTERCITY_TRAIN",
@@ -59,22 +82,112 @@
 			"position": {
 				"longitude": 13.365319,
 				"latitude": 52.475047000000007
-			}            
+			}
         },
         {
-            "id": 5,
-            "stationname": "Berlin Gesundbrunnen",
-            "evanr": "8011102",
-            "availableTransports": [
+            "id": 4,
+			"evaNumber": "8011102",
+			"stationID": "528",
+			"groupMembers": [
+				"8011102",
+				"8089015"
+			],
+			"names": {
+				"DE": {
+					"nameLong": "Berlin Gesundbrunnen",
+					"nameLocal": "Bln Gesundbr.",
+					"speechLong": "Berlin Gesundbrunnen"
+				}
+			},
+			"availableTransports": [
 				"HIGH_SPEED_TRAIN",
 				"REGIONAL_TRAIN",
+				"INTERCITY_TRAIN",
 				"INTER_REGIONAL_TRAIN",
 				"CITY_TRAIN"
 			],
 			"position": {
 				"longitude": 13.388513,
 				"latitude": 52.548963
-			}            
-        }
+			}
+        },
+		{
+            "id": 5,
+			"evaNumber": "8010255",
+			"stationID": "530",
+			"groupMembers": [
+				"8089185",
+				"8010255"
+			],
+			"names": {
+				"DE": {
+					"nameLong": "Berlin Ostbahnhof",
+					"speechLong": "Berlin Ostbahnhof",
+					"speechShort": "Berlin Ostbahnhof"
+				}
+			},
+			"availableTransports": [
+				"HIGH_SPEED_TRAIN",
+				"REGIONAL_TRAIN",
+				"INTERCITY_TRAIN",
+				"INTER_REGIONAL_TRAIN",
+				"CITY_TRAIN"
+			],
+			"position": {
+				"longitude": 13.4346807,
+				"latitude": 52.5104881
+			}
+		},
+		{
+            "id": 6,
+			"evaNumber": "8010405",
+			"stationID": "566",
+			"groupMembers": [
+				"8010405",
+				"8089190"
+			],
+			"names": {
+				"IT": {
+					"nameLong": "Berlin Wannsee",
+					"speechLong": "Berlin Wannsee",
+					"speechShort": "Berlin Wannsee"
+				}
+			},
+			"availableTransports": [
+				"HIGH_SPEED_TRAIN",
+				"REGIONAL_TRAIN",
+				"INTERCITY_TRAIN",
+				"CITY_TRAIN"
+			],
+			"position": {
+				"longitude": 13.1795275,
+				"latitude": 52.4209723
+			}
+		},
+		{
+            "id": 7,
+			"evaNumber": "8013470",
+			"stationID": "571",
+			"groupMembers": [
+				"8013470",
+				"8089205"
+			],
+			"names": {
+				"DE": {
+					"nameLong": "Bernau(b Berlin)",
+					"speechLong": "Bernau bei Berlin",
+					"speechShort": "Bernau bei Berlin"
+				}
+			},
+			"availableTransports": [
+				"HIGH_SPEED_TRAIN",
+				"REGIONAL_TRAIN",
+				"CITY_TRAIN"
+			],
+			"position": {
+				"longitude": 13.5926414,
+				"latitude": 52.6755689
+			}
+		}
     ]
 }
