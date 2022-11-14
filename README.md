@@ -1,10 +1,14 @@
-# Journey42 Angular-Example
+# Reise42 Angular-Example
+
+# Demo for using APIs from DB MarketPlace
 
 ## Checkout and Install
 
 ```
-git clone git clone https://github.com/manfredsteyer/angular-intro
-cd angular-intro
+git clone git clone https://github.com/norbertus/jason_erw
+
+
+cd jason_erw
 npm install
 ```
 
@@ -14,6 +18,8 @@ npm install
 ng serve -o
 ```
 
-## More on Angular & Workshops
+## Basis
 
-https://www.angulararchitects.io
+Angular flight example fom : https://www.angulararchitects.io
+
+
