@@ -1,0 +1,80 @@
+{
+    "mystations":
+    [
+        {
+            "id": 1,
+            "stationname": "Berlin1",
+            "evanr": "1122334",
+            "availableTransports": [
+				"CITY_TRAIN"
+			],
+            "position": {
+				"longitude": 13.369545,
+				"latitude": 52.525592
+			}
+        },
+        {
+            "id": 2,
+            "stationname": "Berlin Ostkreuz",
+            "evanr": "8011162",
+            "availableTransports": [
+				"HIGH_SPEED_TRAIN",
+				"REGIONAL_TRAIN",
+				"INTERCITY_TRAIN",
+				"INTER_REGIONAL_TRAIN",
+				"CITY_TRAIN"
+			],
+			"position": {
+				"longitude": 13.469105,
+				"latitude": 52.503037
+			}            
+        },
+        {
+            "id": 3,
+            "stationname": "Bonn Hbf",
+            "evanr": "3344556",
+            "availableTransports": [
+				"HIGH_SPEED_TRAIN",
+				"REGIONAL_TRAIN",
+				"INTERCITY_TRAIN",
+				"INTER_REGIONAL_TRAIN",
+				"CITY_TRAIN"
+			],    
+			"position": {
+				"longitude": 7.096944,
+				"latitude": 50.731944 
+			}                    
+        },
+        {
+            "id": 4,
+            "stationname": "Berlin Südkreuz",
+            "evanr": "8011161",
+            "availableTransports": [
+				"HIGH_SPEED_TRAIN",
+				"REGIONAL_TRAIN",
+				"INTERCITY_TRAIN",
+				"INTER_REGIONAL_TRAIN",
+				"CITY_TRAIN"
+			],
+			"position": {
+				"longitude": 13.365319,
+				"latitude": 52.475047000000007
+			}            
+        },
+        {
+            "id": 5,
+            "stationname": "Berlin Gesundbrunnen",
+            "evanr": "8011102",
+            "availableTransports": [
+				"HIGH_SPEED_TRAIN",
+				"REGIONAL_TRAIN",
+				"INTER_REGIONAL_TRAIN",
+				"CITY_TRAIN"
+			],
+			"position": {
+				"longitude": 13.388513,
+				"latitude": 52.548963
+			}            
+        }
+    ]
+}

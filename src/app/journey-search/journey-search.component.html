@@ -1,0 +1,35 @@
+<!-- src/app/journey-search/journey-search.component.html -->
+
+<h1>Reise Suche</h1>
+
+<div class="form-group">
+    <label>Von:</label>
+    <input [(ngModel)]="stationname" class="form-control">
+</div>
+
+
+
+
+
+
+<!-- <div class="form-group">
+    <label>Date:</label>
+    <app-date [(date)]="date"></app-date> 
+    {{date}}
+</div> -->
+
+<div class="form-group">
+    <button class="btn btn-default" (click)="search()" [disabled]="!stationname">
+        Suche
+    </button>
+</div>
+
+<div class="row">
+    <div *ngFor="let f of dbstopplaces" class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+        <journey-card [item]="f" [(selected)]="basket[f.id]">
+        </journey-card>
+    </div>
+</div>
+
+<b>Basket</b>
+<pre>{{ basket | json }}</pre>
